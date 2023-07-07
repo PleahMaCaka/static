@@ -11,8 +11,8 @@
         "extensions": {
             "type": "object",
             "additionalProperties": {
-                "type": "array",
-                "items": {
+                "type": "object",
+                "additionalProperties": {
                     "type": "string"
                 }
             }
