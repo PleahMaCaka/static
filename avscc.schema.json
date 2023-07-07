@@ -12,7 +12,7 @@
         "extensions": {
             "type": "object",
             "additionalProperties": {
-                "type": "object",
+                "type": "array",
                 "additionalProperties": {
                     "type": "string"
                 }
