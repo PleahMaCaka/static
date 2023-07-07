@@ -3,17 +3,21 @@
     "type": "object",
     "properties": {
         "$schema": {
-            "type": "string"
+            "type": "string",
+            "format": "uri"
         },
         "author": {
             "type": "string"
         },
         "extensions": {
-            "type": "object",
-            "additionalProperties": {
+            "type": "array",
+            "items": {
                 "type": "object",
                 "additionalProperties": {
-                    "type": "string"
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
                 }
             }
         }
